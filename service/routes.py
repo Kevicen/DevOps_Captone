@@ -9,7 +9,7 @@ from service.models import Account
 from service.common import status  # HTTP Status Codes
 from . import app  # Import Flask application
 
-
+BASE_URL = "https://github.com/jkaewprateep/devops-capstone-project"
 ############################################################
 # Health Endpoint
 ############################################################
