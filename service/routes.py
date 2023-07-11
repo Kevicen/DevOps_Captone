@@ -82,6 +82,10 @@ def get_accounts(account_id):
         abort(status.HTTP_404_NOT_FOUND, f"Account with id [{account_id}] could not be found.")
     return account.serialize(), status.HTTP_200_OK
 
+
+######################################################################
+# TEST GET ACCOUNT
+######################################################################
 def test_get_account_not_found(self):
     """It should not Read an Account that is not found"""
     resp = self.client.get(f"{BASE_URL}/0")
