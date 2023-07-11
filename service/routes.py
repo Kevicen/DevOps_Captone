@@ -11,6 +11,8 @@ from . import app  # Import Flask application
 
 
 BASE_URL = "https://github.com/jkaewprateep/devops-capstone-project"
+
+
 ############################################################
 # Health Endpoint
 ############################################################
